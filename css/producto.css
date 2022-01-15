@@ -1,0 +1,16 @@
+.contenedor-producto{
+    margin-top: 150px;
+    padding-bottom: 100px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    align-items: center;
+}
+.imagen-producto{
+    height: 500px;
+}
+.informacion-producto *{
+    margin: 10px;
+    
+}
